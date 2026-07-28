@@ -1,0 +1,111 @@
+AJAY ARAVINDAN
+Liverpool, UK | +44 7471 238236 | ajxarx@gmail.com
+LinkedIn: linkedin.com/in/ajxarx | Portfolio: [ajayaravindan.notion.site — BUILD THIS]
+Right to Work: British Citizen / Full UK Work Authorisation | Willing to Relocate to London
+
+════════════════════════════════════════════════════════════
+
+PROFESSIONAL PROFILE
+
+Sound Technology graduate with hands-on experience in audio post-production, broadcast-compliant delivery, and professional mastering workflows. Proven technical grounding in Pro Tools, Adobe Premiere, EBU R128 loudness compliance, AS-11 DPP, and DCI standards. Experienced in delivering multi-format audio outputs including Dolby Atmos 7.1.2, 5.1, and LtRt fold-down to professional broadcast specifications. Eager to develop expertise in digital cinema mastering, DCP creation, transcoding, and content QC within a fast-paced post-production environment. Highly detail-oriented, disciplined under tight deadlines, and fully available for shift-based working including nights, weekends, and public holidays.
+
+════════════════════════════════════════════════════════════
+
+TECHNICAL SKILLS
+
+Post-Production Software
+Pro Tools | Adobe Premiere | Avid S6 Console | Ableton Live | Microsoft Suite | Power BI
+
+Audio Post-Production
+Dolby Atmos Mixing (7.1.2) | 5.1 Surround Mixing | LtRt (LoRo Stereo Fold-Down) | Re-Recording Mixer | Audio Conforming | ADR Recording & Editing | Foley Recording & Editing | Sound Design for Picture | Dialogue Editing
+
+Broadcast & Cinema Delivery Standards
+EBU R128 Loudness Normalisation | AS-11 DPP (HD) | EBU R123 (16-Channel Track Order) | DCI Standards | Interop DCP (Familiarity) | SMPTE Standards (Familiarity)
+
+Technical QC & Compliance
+Loudness Compliance & Correction | Broadcast Format Export | Audio Stem Preparation | File Validation | Audio Conforming to EBU R123
+
+════════════════════════════════════════════════════════════
+
+PORTFOLIO PROJECTS
+
+NOTE: Add hyperlinks to all entries below once portfolio site is live.
+
+ESCAPE — Animated Short Film
+Role: Sound Designer & Re-Recording Mixer | Institution: LIPA
+[▶ Watch on Vimeo — INSERT LINK] | [🎧 Audio Demo — INSERT SOUNDCLOUD LINK]
+Technical Spec: Pro Tools | Dolby Atmos 7.1.2 | EBU R128 | AS-11 DPP | 5.1 | LtRt
+
+• Delivered full audio post-production pipeline including sound design, Dolby Atmos 7.1.2 mix, and broadcast-compliant stems.
+• Performed EBU R128 loudness normalisation and exported final loudness-corrected stems to AS-11 DPP (HD) format with audio conforming to EBU R123 (16-channel track order), meeting full broadcast delivery specification.
+• Re-rendered Atmos mix to 5.1 surround and LtRt (LoRo) fold-down for multi-platform distribution compatibility.
+
+FLOW — Animated Feature Film
+Role: Sound Designer & Re-Recording Mixer | Institution: LIPA
+[▶ Watch on Vimeo — INSERT LINK] | [🎧 Audio Demo — INSERT SOUNDCLOUD LINK]
+Technical Spec: Pro Tools | Dolby Atmos 7.1.2 | 5.1 | Foley | ADR | Music Integration
+
+• Delivered end-to-end audio post-production for a full-length animated feature including sound design, Foley recording and editing, ADR, and original music integration.
+• Completed Dolby Atmos 7.1.2 mix with full 5.1 fold-down, demonstrating proficiency across immersive and standard audio delivery formats.
+• Managed the full audio pipeline from production through final deliverables, ensuring technical and creative alignment with picture lock.
+
+SUPERMAN COMIC BOOK AUDIO EXPERIENCE
+Role: Sound Designer & Mixer | Institution: LIPA
+[▶ Watch / Listen — INSERT LINK] | [📄 Project Spec Sheet — INSERT PDF LINK]
+Technical Spec: Pro Tools | 5.1 Surround | Stereo Fold-Down | ADR | SFX | Foley | Music
+
+• Conceived and produced a fully synchronised audio experience designed to accompany a comic book page-by-page — an original concept demonstrating creative and technical versatility.
+• Delivered complete sound design covering Music, ADR, Foley, and SFX; mixed to 5.1 surround with stereo fold-down, meeting professional multi-format delivery standards.
+
+════════════════════════════════════════════════════════════
+
+WORK EXPERIENCE
+
+FREELANCE AUDIO TECHNICIAN
+Ajay Freelancer F Events Management | Abu Dhabi, UAE | Oct 2021 – Sep 2023
+
+• Engineered audio systems for 20+ corporate events; responsible for technical compliance and quality assurance of all audio output across productions.
+• Worked directly with clients through pre-production and setup phases to establish technical requirements, project design briefs, and delivery specifications.
+• Assisted lead sound supervisor on multiple productions — supporting radio mic deployment, system design, signal routing, and live monitoring.
+• Installed, operated, and maintained professional sound equipment across multiple client organisations, maintaining audio integrity throughout productions.
+
+PROJECT MANAGEMENT CONSULTANT
+Digital Qatalyst | Dubai, UAE | Nov 2021 – Feb 2022
+
+• Delivered tailored operational solutions to clients using data analysis and reporting via Microsoft Excel and Power BI; managed communications for a portfolio of client accounts.
+
+BAR TEAM LEADER / TILL OPERATOR (Casual)
+Liverpool FC Stadium | Liverpool, UK | May 2024 – Present
+
+• Lead a team of bar staff during matchdays and large-scale events; coordinate workflow under high-pressure, time-critical conditions — relevant to fast-paced, deadline-driven post-production shift environments.
+• Conduct health and safety compliance checks to meet venue and licensing standards.
+• Manage stock, visual merchandising, and delivery processing while liaising with supervisors and management.
+
+════════════════════════════════════════════════════════════
+
+EDUCATION
+
+BA (Hons) Sound Technology                              Expected: June 2026
+Liverpool Institute for Performing Arts (LIPA) | Liverpool, UK
+Relevant Modules: Audio Post-Production | Broadcast Delivery Standards | Dolby Atmos Production | Film Sound | Digital Media Delivery
+
+BSc Business Administration                             Graduated: June 2020
+Rochester Institute of Technology | Dubai, UAE
+
+════════════════════════════════════════════════════════════
+
+ADDITIONAL NOTES FOR AJAY
+
+THINGS TO DO BEFORE SUBMITTING THIS CV:
+1. Replace all "INSERT LINK" placeholders with real URLs
+2. Build a Notion or GitHub Pages portfolio (1–2 days of work)
+3. Upload audio from all three projects to SoundCloud
+4. Upload video walkthroughs to Vimeo (unlisted is fine)
+5. Record a 3–5 minute Loom walkthrough of "Escape" — link it on the portfolio
+6. Create Gamma.app presentation decks for each project (free, AI-generated, looks premium)
+7. Update LinkedIn profile to match this rewritten CV exactly
+8. Write a bespoke cover letter for EIKON that mentions DCPs, their Soho work, and your shift availability explicitly
+
+CV FORMAT NOTE:
+Save this as a clean single-column .docx for ATS submissions.
+Keep a styled PDF version (using Canva or Microsoft Word design templates) for emailing directly to human recruiters.
