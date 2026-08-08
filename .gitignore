@@ -1,0 +1,5 @@
+ajay_cv_venv/
+__pycache__/
+*.pyc
+CV_Analysis_Report.zip
+# Keep portfolio/CV/AJAY ARAVINDAN.pdf tracked (needed for Render deployment)
