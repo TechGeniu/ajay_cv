@@ -468,8 +468,25 @@
     .exp-audio-desc {
       color: #8AADBE; font-size: 0.82rem; line-height: 1.65;
     }
-    .exp-audio-player { border-radius: 8px; overflow: hidden; }
-    .exp-audio-player iframe { display: block; border-radius: 8px; }
+    .exp-audio-open {
+      display: flex; flex-direction: column; align-items: center; gap: 0.8rem;
+      background: rgba(30,127,142,0.1); border: 1.5px solid rgba(37,160,181,0.3);
+      border-radius: 10px; padding: 1.4rem 1rem; text-align: center;
+    }
+    .exp-audio-open .gdrive-btn {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      background: var(--teal); color: var(--white);
+      font-size: 0.9rem; font-weight: 700; padding: 0.7rem 1.4rem;
+      border-radius: 8px; text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .exp-audio-open .gdrive-btn:hover {
+      background: var(--teal2); color: var(--white);
+      text-decoration: none; transform: translateY(-1px);
+    }
+    .exp-audio-open .gdrive-hint {
+      font-size: 0.75rem; color: #8AADBE; line-height: 1.5;
+    }
     .exp-audio-note {
       background: rgba(30,127,142,0.1); border: 1px solid rgba(37,160,181,0.2);
       border-radius: 6px; padding: 0.7rem 0.9rem;
@@ -810,7 +827,7 @@
             <div class="proj-role">Sound Designer &amp; Mixer · LIPA</div>
           </div>
           <div class="proj-links">
-            <a class="proj-link" href="https://drive.google.com/file/d/1w9HlJl6Hz5FTKatuGUpH4xq4_T6m94Bo/view" target="_blank">🎧 Audio</a>
+            <a class="proj-link" href="https://drive.google.com/file/d/1ZLQuRqaDeFP7Jue5ntJ3WpTHCYcgWoub/view" target="_blank">🎧 Audio</a>
             <a class="proj-link secondary" href="https://drive.google.com/file/d/1NCohx8c62M461HNr2RkNc6H9QWF-ghhE/view" target="_blank">📄 Comic PDF</a>
           </div>
         </div>
@@ -984,16 +1001,15 @@
         crafted to accompany each page of the comic. Start the audio, then read through the pages.
       </div>
 
-      <!-- Audio player — MP3 via Google Drive preview -->
-      <div class="exp-audio-player">
-        <iframe
-          id="superman-audio-frame"
-          src=""
-          data-src="https://drive.google.com/file/d/1o8RYhseRTLhv2UuM7AnfSIisvYRdrIgN/preview"
-          width="100%" height="180"
-          allow="autoplay"
-          frameborder="0">
-        </iframe>
+      <!-- Audio player — direct Google Drive link (GDrive blocks audio iframes cross-domain) -->
+      <div class="exp-audio-open">
+        <span style="font-size:2rem;">🎧</span>
+        <a class="gdrive-btn"
+           href="https://drive.google.com/file/d/1ZLQuRqaDeFP7Jue5ntJ3WpTHCYcgWoub/view"
+           target="_blank" rel="noopener">
+          ▶&nbsp; Play Audio on Google Drive
+        </a>
+        <p class="gdrive-hint">Opens in a new tab · Press play in Google Drive’s built-in player</p>
       </div>
 
       <div class="exp-specs">
@@ -1037,16 +1053,12 @@
 
   // ── Superman experience overlay ───────────────────────────────────────────
   function openSupermanExperience() {
-    const frame = document.getElementById('superman-audio-frame');
-    frame.src = frame.dataset.src;   // always (re)set so audio loads fresh
     document.getElementById('superman-experience').classList.add('active');
     document.body.style.overflow = 'hidden';
   }
   function closeSupermanExperience() {
     document.getElementById('superman-experience').classList.remove('active');
     document.body.style.overflow = '';
-    const frame = document.getElementById('superman-audio-frame');
-    frame.src = 'about:blank';       // stop audio on close
   }
 
   // ── Project Sticky-Scroll ────────────────────────────────────────────────
