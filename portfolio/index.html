@@ -70,13 +70,19 @@
     }
     .hero-tag {
       display: inline-block;
-      background: rgba(30,127,142,0.25);
-      border: 1px solid rgba(37,160,181,0.45);
-      color: var(--teal2);
-      font-size: 0.75rem; font-weight: 600;
-      letter-spacing: 0.12em; text-transform: uppercase;
-      padding: 0.3rem 0.9rem; border-radius: 100px;
+      background: linear-gradient(135deg, #1E7F8E 0%, #25C4DC 100%);
+      border: none;
+      color: #ffffff;
+      font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.14em; text-transform: uppercase;
+      padding: 0.38rem 1.1rem; border-radius: 100px;
       margin-bottom: 1.4rem;
+      box-shadow: 0 0 16px rgba(37,196,220,0.55), 0 0 40px rgba(37,196,220,0.2);
+      animation: tagPulse 2.4s ease-in-out infinite;
+    }
+    @keyframes tagPulse {
+      0%, 100% { box-shadow: 0 0 16px rgba(37,196,220,0.55), 0 0 40px rgba(37,196,220,0.2); }
+      50%       { box-shadow: 0 0 28px rgba(37,196,220,0.85), 0 0 60px rgba(37,196,220,0.35); }
     }
     #hero h1 {
       color: var(--white); font-size: clamp(2.4rem, 6vw, 4rem);
