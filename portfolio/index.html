@@ -156,12 +156,37 @@
     .about-meta-row .icon { color: var(--teal); font-size: 1rem; width: 20px; text-align: center; }
     .about-meta-row a { color: var(--teal); }
     .standards-box {
-      background: var(--offwht); border: 1px solid var(--rule);
-      border-radius: 10px; padding: 1.5rem;
+      background: linear-gradient(135deg, var(--navy) 0%, #1a5f6e 100%);
+      border: none; border-radius: 16px; padding: 2rem;
+      position: relative; overflow: hidden;
+      box-shadow: 0 8px 32px rgba(10,35,66,0.18);
     }
     .standards-box h4 {
-      font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase;
-      color: var(--teal); margin-bottom: 1rem; font-weight: 700;
+      font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--teal); margin-bottom: 1.2rem; font-weight: 800;
+      display: flex; align-items: center; gap: 0.5rem;
+    }
+    .standards-box h4::before {
+      content: ''; display: inline-block;
+      width: 18px; height: 2px; background: var(--teal); border-radius: 2px;
+    }
+    .looking-for-tags {
+      display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.2rem;
+    }
+    .lf-tag {
+      background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.18);
+      color: #fff; font-size: 0.8rem; font-weight: 600;
+      padding: 0.35rem 0.85rem; border-radius: 100px;
+      backdrop-filter: blur(4px);
+    }
+    .lf-tag.highlight {
+      background: rgba(30,127,142,0.35); border-color: var(--teal); color: var(--teal);
+    }
+    .standards-box .lf-footer {
+      font-size: 0.82rem; color: rgba(255,255,255,0.55);
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding-top: 1rem; margin-top: 0.5rem;
+      display: flex; align-items: center; gap: 0.5rem;
     }
     .std-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
     .chip {
@@ -587,8 +612,8 @@
   <div class="logo">AJAY <span>ARAVINDAN</span></div>
   <ul>
     <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
     <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#education">Education</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -600,7 +625,7 @@
   <div class="hero-tag">Available to Relocate Within the UK · Shift-Flexible</div>
   <h1>Audio Post-Production<br /><span>&amp; Content Delivery</span></h1>
   <p class="subtitle">
-    A technical and management candidate with hands-on experience in Audio Post-Production and Sound Engineering, looking to secure a challenging position in the Film and TV Industry — aspiring to grow as a sound designer or post-production supervisor, beginning as a runner, junior, assistant or associate.
+    A technical and management candidate with educational and project experience in Audio Post-Production and Sound Engineering, looking to secure a challenging position in the Film and TV Industry — as I am motivated, ambitious and aspiring to become a sound designer or post-production supervisor, by learning and growing from the best mentors and colleagues.
   </p>
   <div class="hero-links">
     <a class="btn btn-primary" href="#projects">▶ &nbsp;View My Work</a>
@@ -621,18 +646,24 @@
     <div class="about-grid">
       <div class="about-text">
         <p>
-          I am a <b>Sound Technology graduate from Liverpool Institute for Performing Arts </b>,
-          with a dual background in audio post-production and business administration. My work
-          spans sound design for picture, Dolby Atmos mixing, and broadcast-compliant delivery
-          to professional standards.
+          I am a <b>Sound Technology graduate from the Liverpool Institute for Performing Arts</b>,
+          where I specialised in audio post-production — studying the craft of sound from a deeply
+          creative and technical academic perspective, covering everything from acoustics and live
+          engineering through to post-production workflows, mixing, and broadcast delivery standards.
         </p>
         <p>
-          I am eager to apply and expand my knowledge learnt from the portfolio projects and expand this knowledge by working in a digital cinema mastering, content delivery and content QC environment.
+          Before LIPA, I completed a <b>BSc in Business Administration Management at Rochester
+          Institute of Technology, Dubai</b> — gaining a grounding in operational analysis, project
+          management, strategic thinking, and professional communication. Far from being separate
+          pursuits, these two disciplines complement each other well: the business background
+          sharpens how I approach a production — planning, client relationships, process and
+          delivery — while the sound education gives me the creative and technical language of
+          the industry I am entering.
         </p>
         <p>
-          Previously based in the UAE, I am currently in Liverpool and <b>willing to move within
-          the UK</b> for the right opportunity. Fully available for shift-based working including
-          nights, weekends, and public holidays.
+          I grew up and studied across the <b>UAE and the UK</b>, bringing a genuinely diverse,
+          multicultural perspective to every environment I work in. I am now based in Liverpool,
+          <b>willing to relocate within the UK</b> for any opportunity.
         </p>
         <div class="about-meta">
           <div class="about-meta-row"><span class="icon">📍</span> Liverpool, UK · Willing to Move Within the UK</div>
@@ -645,81 +676,15 @@
       <div>
         <div class="standards-box">
           <h4>What I Am Looking For</h4>
-          <p style="color:var(--lgray);font-size:0.88rem;line-height:1.7;">
-            Entry-level roles in <b style="color:var(--navy)">digital cinema mastering, content services,
-            audio post-production, sound design and QC, particularly in UK Film and TV industry.</b>
-            Open to shift rotas and comprehensive on-the-job training.
+          <p style="color:rgba(255,255,255,0.85); font-size:0.92rem; line-height:1.85; font-weight:400;">
+            Entry-level roles as a <b style="color:#5FE0F0; font-weight:700">runner, junior, assistant or associate</b>
+            in a <b style="color:#fff; font-weight:700">digital cinema mastering, QC, content services,
+            audio post-production, sound design</b> — particularly in the
+            <b style="color:#5FE0F0; font-weight:700">UK Film and TV industry.</b>
           </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ── Skills ──────────────────────────────────────────────────────────────── -->
-<section id="skills">
-  <div class="container">
-    <div class="section-label">Technical Toolkit</div>
-    <h2 class="section-title">Skills</h2>
-    <p class="section-sub">Industry-standard tools and delivery pipelines from academic and professional projects.</p>
-    <div class="skills-grid">
-      <div class="skill-card">
-        <div class="skill-card-icon">🎚️</div>
-        <h4>Software &amp; Technology</h4>
-        <div class="skill-tags">
-          <span class="skill-tag">Pro Tools</span>
-          <span class="skill-tag">Ableton Live</span>
-          <span class="skill-tag">Adobe Premiere Pro</span>
-          <span class="skill-tag">Avid S6 Console</span>
-          <span class="skill-tag">ADR Master</span>
-          <span class="skill-tag">Atmos Renderer</span>
-          <span class="skill-tag">EdiLoad</span>
-          <span class="skill-tag">Microsoft Suite</span>
-        </div>
-      </div>
-      <div class="skill-card">
-        <div class="skill-card-icon">🔊</div>
-        <h4>Post-Production &amp; Sound Design</h4>
-        <div class="skill-tags">
-          <span class="skill-tag">SFX for Picture</span>
-          <span class="skill-tag">Foley Recording &amp; Editing</span>
-          <span class="skill-tag">ADR</span>
-          <span class="skill-tag">Dolby Atmos Mixing &amp; Mastering</span>
-          <span class="skill-tag">Mixing (7.1.2, 5.1, Stereo)</span>
-          <span class="skill-tag">LtRt (LoRo) Fold-Down</span>
-          <span class="skill-tag">Re-Recording Mixer</span>
-          <span class="skill-tag">Audio Conforming</span>
-        </div>
-      </div>
-      <div class="skill-card">
-        <div class="skill-card-icon">📡</div>
-        <h4>Broadcast Delivery</h4>
-        <div class="skill-tags">
-          <span class="skill-tag">EBU R128 Loudness Target</span>
-          <span class="skill-tag">AS-11 DPP</span>
-          <span class="skill-tag">DCP Mastering</span>
-          <span class="skill-tag">Technical QC</span>
-        </div>
-      </div>
-      <div class="skill-card">
-        <div class="skill-card-icon">🎤</div>
-        <h4>Location &amp; Production Sound</h4>
-        <div class="skill-tags">
-          <span class="skill-tag">Location Recording</span>
-          <span class="skill-tag">Boom Operating</span>
-          <span class="skill-tag">Radio Mic Fitting &amp; Monitoring</span>
-          <span class="skill-tag">Production Sound Assistant</span>
-        </div>
-      </div>
-      <div class="skill-card">
-        <div class="skill-card-icon">🤝</div>
-        <h4>Business &amp; Management</h4>
-        <div class="skill-tags">
-          <span class="skill-tag">Project Management</span>
-          <span class="skill-tag">Client Communication</span>
-          <span class="skill-tag">Sales Analysis</span>
-          <span class="skill-tag">Process Improvement</span>
-          <span class="skill-tag">Team Leadership</span>
+          <div class="lf-footer">
+            <span>🔄</span> Open to shift rotas &amp; comprehensive on-the-job training
+          </div>
         </div>
       </div>
     </div>
@@ -864,6 +829,76 @@
   </div>
 </section>
 
+<!-- ── Skills ──────────────────────────────────────────────────────────────── -->
+<section id="skills">
+  <div class="container">
+    <div class="section-label">Technical Toolkit</div>
+    <h2 class="section-title">Skills</h2>
+    <p class="section-sub">Industry-standard tools and delivery pipelines from academic and professional projects.</p>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-card-icon">🎚️</div>
+        <h4>Software &amp; Technology</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">Pro Tools</span>
+          <span class="skill-tag">Ableton Live</span>
+          <span class="skill-tag">Adobe Premiere Pro</span>
+          <span class="skill-tag">Avid S6 Console</span>
+          <span class="skill-tag">ADR Master</span>
+          <span class="skill-tag">Atmos Renderer</span>
+          <span class="skill-tag">EdiLoad</span>
+          <span class="skill-tag">Microsoft Suite</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">🔊</div>
+        <h4>Post-Production &amp; Sound Design</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">SFX for Picture</span>
+          <span class="skill-tag">Foley Recording &amp; Editing</span>
+          <span class="skill-tag">ADR</span>
+          <span class="skill-tag">Dolby Atmos Mixing &amp; Mastering</span>
+          <span class="skill-tag">Mixing (7.1.2, 5.1, Stereo)</span>
+          <span class="skill-tag">LtRt (LoRo) Fold-Down</span>
+          <span class="skill-tag">Re-Recording Mixer</span>
+          <span class="skill-tag">Audio Conforming</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">📡</div>
+        <h4>Broadcast Delivery</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">EBU R128 Loudness Target</span>
+          <span class="skill-tag">AS-11 DPP</span>
+          <span class="skill-tag">DCP Mastering</span>
+          <span class="skill-tag">Technical QC</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">🎤</div>
+        <h4>Location &amp; Production Sound</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">Location Recording</span>
+          <span class="skill-tag">Boom Operating</span>
+          <span class="skill-tag">Radio Mic Fitting &amp; Monitoring</span>
+          <span class="skill-tag">Production Sound Assistant</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">🤝</div>
+        <h4>Business &amp; Management</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">Project Management</span>
+          <span class="skill-tag">Client Communication</span>
+          <span class="skill-tag">Sales Analysis</span>
+          <span class="skill-tag">Process Improvement</span>
+          <span class="skill-tag">Team Leadership</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ── Experience ──────────────────────────────────────────────────────────── -->
 <section id="experience">
   <div class="container">
@@ -875,7 +910,7 @@
       <div class="exp-item">
         <div class="exp-dot"></div>
         <div class="exp-header">
-          <h4>Sound Technician</h4>
+          <h4>Sound Technician <span style="font-size:0.78rem;font-weight:500;color:var(--lgray);">(Freelance Full-Time)</span></h4>
           <span class="exp-date">Oct 2021 – Sep 2023</span>
         </div>
         <div class="exp-org">Ajay Freelancer Events Management · Abu Dhabi, UAE</div>
@@ -892,7 +927,7 @@
       <div class="exp-item">
         <div class="exp-dot"></div>
         <div class="exp-header">
-          <h4>Project Management Consultant</h4>
+          <h4>Project Management Consultant <span style="font-size:0.78rem;font-weight:500;color:var(--lgray);">(Full-Time)</span></h4>
           <span class="exp-date">Nov 2021 – Feb 2022</span>
         </div>
         <div class="exp-org">Digital Qatalyst · Dubai, UAE</div>
@@ -906,10 +941,10 @@
       <div class="exp-item">
         <div class="exp-dot"></div>
         <div class="exp-header">
-          <h4>Retail Staff</h4>
-          <span class="exp-date">Present</span>
+          <h4>Retail Staff <span style="font-size:0.78rem;font-weight:500;color:var(--lgray);">(Part-Time)</span></h4>
+          <span class="exp-date">2024 – Present</span>
         </div>
-        <div class="exp-org">Liverpool FC Stadium · Liverpool, UK</div>
+        <div class="exp-org">Liverpool FC Stadium &amp; Everton FC Stadium · Liverpool, UK</div>
       </div>
 
     </div>
@@ -925,10 +960,10 @@
     <div class="edu-grid">
 
       <div class="edu-card">
-        <div class="edu-badge">Sep 2023 – Jul 2026</div>
+        <div class="edu-badge">Graduated July 2026</div>
         <h4>BA (Hons) Sound Technology</h4>
         <div class="inst">Liverpool Institute for Performing Arts (LIPA)</div>
-        <div class="period">📍 Liverpool, United Kingdom</div>
+        <div class="period">📍 Liverpool, United Kingdom · September 2023 – July 2026</div>
         <div class="modules">
           <strong>Key Areas</strong>
           Audio Production · Acoustics · Live Engineering · Audio Post-Production · SFX Designing · Foley Recording &amp; Editing · ADR · Location Recording · Mixing (7.1, 5.1, LtRt) · Audio Conforming · Technical QC · EBU Standards · DCP Mastering
@@ -939,7 +974,7 @@
         <div class="edu-badge">Graduated June 2020</div>
         <h4>BSc (Hons) Business Administration Management</h4>
         <div class="inst">Rochester Institute of Technology</div>
-        <div class="period">📍 Dubai, United Arab Emirates · Sep 2016 – Jun 2020</div>
+        <div class="period">📍 Dubai, United Arab Emirates · September 2016 – June 2020</div>
         <div class="modules">
           <strong>Key Areas</strong>
           Operational Analysis · Project &amp; Strategic Management · Organisational Effectiveness · Communication · Ad-Hoc Management
