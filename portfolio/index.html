@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ajay Aravindan — Audio Post-Production Portfolio</title>
   <style>
+    /* ── Google Fonts ──────────────────────────────────────────────────────── */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
     /* ── Reset & Base ──────────────────────────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -17,7 +19,7 @@
       --rule:   #D8CDBC;
       --white:  #FFF8EE;
       --card:   #FFF8EE;
-      --font:   'Aptos Display', 'Aptos', 'Calibri', 'Segoe UI', system-ui, sans-serif;
+      --font:   'Montserrat', 'Aptos Display', 'Aptos', 'Calibri', 'Segoe UI', system-ui, sans-serif;
     }
     html { scroll-behavior: smooth; }
     body {
@@ -90,7 +92,15 @@
       margin-bottom: 0.6rem;
     }
     #hero h1 span { color: var(--teal2); }
-    #hero .subtitle { color: #C4A882; font-size: clamp(0.95rem, 2.5vw, 1.05rem); max-width: 740px; margin: 0 auto 1rem; }
+    #hero .subtitle {
+      color: #C4A882; font-size: clamp(0.95rem, 2.5vw, 1.05rem); max-width: 740px; margin: 0 auto 1rem;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 12px;
+      padding: 1rem 1.5rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      backdrop-filter: blur(4px);
+    }
     #hero .subtitle strong { color: #ffffff; font-weight: 700; }
     .hero-links {
       display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;
@@ -129,15 +139,15 @@
       text-decoration: none; border-color: rgba(255,255,255,0.6);
     }
     .hero-stats {
-      display: flex; gap: 3rem; margin-top: 3.5rem;
-      padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);
+      display: flex; gap: 3rem; margin-top: 2rem;
+      padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1);
     }
     .stat { text-align: center; }
     .stat .num { color: var(--teal2); font-size: 2rem; font-weight: 800; }
     .stat .lbl { color: #C4A882; font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; }
 
     /* ── Sections ──────────────────────────────────────────────────────────── */
-    section { padding: 5rem 2rem; }
+    section { padding: 3rem 2rem; }
     .container { max-width: 1080px; margin: 0 auto; }
     .section-label {
       display: inline-flex; align-items: center; gap: 0.5rem;
@@ -150,13 +160,13 @@
       content: ''; width: 12px; height: 2px; background: var(--teal); display: block;
     }
     h2.section-title {
-      font-family: 'Aptos Display', 'Aptos', 'Calibri', 'Segoe UI', system-ui, sans-serif;
+      font-family: 'Montserrat', 'Aptos Display', 'Aptos', 'Calibri', 'Segoe UI', system-ui, sans-serif;
       font-size: clamp(1.4rem, 3.5vw, 2.2rem); font-weight: 800;
       color: var(--navy); margin-bottom: 0.75rem;
       letter-spacing: 0.05em; text-transform: uppercase;
     }
     .section-sub {
-      color: var(--lgray); max-width: 600px; font-size: 0.95rem; margin-bottom: 3rem;
+      color: var(--lgray); max-width: 600px; font-size: 0.95rem; margin-bottom: 2rem;
     }
 
     /* ── About ─────────────────────────────────────────────────────────────── */
@@ -627,7 +637,7 @@
 <!-- ── Hero ────────────────────────────────────────────────────────────────── -->
 <section id="hero">
   <div class="hero-tag">Available to Relocate Within the UK · Shift-Flexible</div>
-  <h1>Audio Post-Production<br /><span>&amp; Content Delivery</span></h1>
+  <h1>Audio Post-Production<br /><span>or Content Delivery</span></h1>
   <p class="subtitle">
     Seeking entry-level roles as a <strong>runner, junior, assistant or associate</strong> in
     <strong>digital cinema mastering, QC, content services, audio post-production</strong> or
@@ -878,10 +888,19 @@
       <div class="exp-item">
         <div class="exp-dot"></div>
         <div class="exp-header">
-          <h4>Retail Staff <span style="font-size:0.78rem;font-weight:500;color:var(--lgray);">(Part-Time)</span></h4>
-          <span class="exp-date">2024 – Present</span>
+          <h4>Operations Intern <span style="font-size:0.78rem;font-weight:500;color:var(--lgray);">(Internship)</span></h4>
+          <span class="exp-date">May 2019 – Aug 2019</span>
         </div>
-        <div class="exp-org">Liverpool FC Stadium &amp; Everton FC Stadium · Liverpool, UK</div>
+        <div class="exp-org">Waystone Compliance Solutions · Dubai, UAE</div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-dot"></div>
+        <div class="exp-header">
+          <h4>Buying Intern — Fashion Department <span style="font-size:0.78rem;font-weight:500;color:var(--lgray);">(Internship)</span></h4>
+          <span class="exp-date">June 2018 – Aug 2018</span>
+        </div>
+        <div class="exp-org">Majid Al Futtaim · Dubai, UAE</div>
       </div>
 
     </div>
@@ -911,8 +930,8 @@
           <b>Sound — this is how much power it holds.</b>
         </p>
         <p>
-          My fondness for this field has grown in a manner to make me want to create something of my own
-          or even be a part of this industry or maybe one day enable someone help achieve this dream —
+          My fondness for this field has grown in a manner to make me <b>want to create something of my own</b>
+          or <b>even be a part of this industry</b> or maybe <b>one day enable someone help achieve this dream</b> —
           to create and share art to this world.
         </p>
         <p>
@@ -945,7 +964,7 @@
 
       <div class="edu-card">
         <div class="edu-badge">Graduated June 2020</div>
-        <h4>BSc (Hons) Business Administration Management</h4>
+        <h4>BSc Business Administration Management</h4>
         <div class="inst">Rochester Institute of Technology</div>
         <div class="period">📍 Dubai, United Arab Emirates · September 2016 – June 2020</div>
         <div class="modules">
